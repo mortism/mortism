@@ -8,7 +8,7 @@ gsap.to(".ascii-art", {
 });
 // Explicitly animate the top half (green flicker)
 gsap.to("#top-half", {
-    y: -10, // Reduce spacing by moving it upward
+    y: -5, // Reduce spacing by moving it upward
     duration: 1,
     ease: "power1.inOut",
     repeat: -1,
@@ -19,7 +19,7 @@ gsap.to("#top-half", {
 });
 // Explicitly animate the bottom half (red flicker)
 gsap.to("#bottom-half", {
-    y: 10, // Reduce spacing by moving it downward
+    y: 5, // Reduce spacing by moving it downward
     duration: 1,
     ease: "power1.inOut",
     repeat: -1,
