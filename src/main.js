@@ -1,9 +1,7 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-const gsap_1 = require("gsap");
-const topHalf = document.querySelector(".top-half");
-const bottomHalf = document.querySelector(".bottom-half");
-gsap_1.gsap.to(topHalf, {
+import { gsap } from "gsap";
+var topHalf = document.querySelector(".top-half");
+var bottomHalf = document.querySelector(".bottom-half");
+gsap.to(topHalf, {
     duration: 2,
     y: -20,
     color: "#39ff14",
@@ -12,7 +10,7 @@ gsap_1.gsap.to(topHalf, {
     repeat: -1,
     yoyo: true
 });
-gsap_1.gsap.to(bottomHalf, {
+gsap.to(bottomHalf, {
     duration: 2,
     y: 20,
     color: "#b22222",
